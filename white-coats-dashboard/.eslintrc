@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "rules": {
+        "no-useless-constructor": "off",
+        "@typescript-eslint/no-useless-constructor": ["off"]
+      }
+    }
+  ],
+  "rules": {
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": ["off"]
+  }
+}
